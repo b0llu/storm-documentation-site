@@ -10,6 +10,7 @@
     height: 120px;
     padding: 0.5rem;
     font-size: 1.5rem;
+    font-weight: 500;
     color: black;
     display: flex;
     justify-content: space-between;
@@ -20,22 +21,22 @@
     border: none;
 }
 
-.primary {
+.palette-primary {
     background-color: var(--primary-color);
 }
 
-.secondary {
+.palette-secondary {
     background-color: var(--secondary-color);
 }
 
-.alert {
+.palette-alert {
     background-color: var(--alert-color);
 }
 
-.success {
+.palette-success {
     background-color: var(--success-color);
 }
 
-.warning {
+.palette-warning {
     background-color: var(--warning-color);
 }
