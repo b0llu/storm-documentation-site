@@ -14,7 +14,7 @@ html {
   --default-color: #101011;
   --white: #ffffff;
   --red: #ff002b;
-  --primary-color: #4446f0;
+  --primary-color: rgb(85,229,245);
   --secondary-color: #f3f4f6;
 }
 
@@ -37,9 +37,7 @@ main {
 .header {
   font-size: 10rem;
   font-weight: 600;
-  background: -webkit-linear-gradient(var(--primary-color), rgb(0, 0, 0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--primary-color);
 }
 
 .header-tag {
@@ -80,11 +78,12 @@ a {
 
 .btn-primary {
   background-color: var(--primary-color);
-  color: var(--white);
+  color: black;
 }
 
 .btn-primary:hover {
-  background-color: #3336ee;
+  background-color: #2156b8;
+  color: var(--white);
   transition: 0.5s ease-in-out;
 }
 
@@ -94,8 +93,9 @@ a {
 }
 
 .btn-secondary:hover {
-  background-color: #cecbcb;
+  background-color: #4b4949;
   transition: 0.5s ease-in-out;
+  color: var(--white);
 }
 
 @media screen and (max-width: 850px) {
