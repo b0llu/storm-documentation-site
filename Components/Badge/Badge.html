@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="../../css/content.css" />
     <link rel="stylesheet" href="../../css/divider.css" />
     <link rel="stylesheet" href="../../css/media.css" />
-        <link rel="stylesheet" href="https://storm-components.netlify.app/components.css">
+    <link
+      rel="stylesheet"
+      href="https://storm-components.netlify.app/components.css"
+    />
 
     <link rel="stylesheet" href="./Avatar.css" />
     <link
@@ -60,39 +63,44 @@
         <div></div>
       </div>
       <div class="content">
-        <div class="content-title">Avatar</div>
+        <div class="content-title">Badge</div>
         <div class="sub-content">
-          This component consists of user profile pictures, usually found in
-          circular shapes.
+          Badges are small circles, positioned either at top-right or
+          bottom-right of the parent component. Badge can be used to display
+          numbers, online / offline status, depending on where they are used
         </div>
         <div class="divider"></div>
-        <div class="content-title">Profile Avatar</div>
+        <div class="content-title">Profile Badge</div>
         <div class="sub-content">
-          Profile Avatars can be created using the class 'avatar', inside the
-          img tag.
+          Profile Badge is used to show the current status of a user. (Showing
+          status with a circular dot)
           <br />
           <div class="content-container">
-            <img
-              class="avatar"
-              src="../../Assets/avatar-1.jpg"
-              alt="Avatar-1"
-            />
-            <img
-              class="avatar"
-              src="../../Assets/avatar-2.jpg"
-              alt="Avatar-2"
-            />
-            <img
-              class="avatar"
-              src="../../Assets/avatar-3.jpg"
-              alt="Avatar-3"
-            />
+            <div class="badge">
+              <img
+                class="avatar"
+                src="../../Assets/avatar-1.jpg"
+                alt="Avatar-1"
+              />
+              <div class="online"></div>
+            </div>
+            <div class="badge">
+              <img
+                class="avatar"
+                src="../../Assets/avatar-2.jpg"
+                alt="Avatar-2"
+              />
+              <div class="dnd"></div>
+            </div>
+            <div class="badge">
+              <img
+                class="avatar"
+                src="../../Assets/avatar-3.jpg"
+                alt="Avatar-3"
+              />
+              <div class="offline"></div>
+            </div>
           </div>
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-1.jpg%2522%2520alt%253D%2522Avatar-1%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-2.jpg%2522%2520alt%253D%2522Avatar-2%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-3.jpg%2522%2520alt%253D%2522Avatar-3%2522%253E"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
         </div>
         <div class="divider"></div>
         <div class="content-title">Sized Avatar</div>
@@ -116,11 +124,6 @@
               alt="Avatar-3"
             />
           </div>
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520la%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-1.jpg%2522%2520alt%253D%2522Avatar-1%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520md%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-2.jpg%2522%2520alt%253D%2522Avatar-2%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520sm%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-3.jpg%2522%2520alt%253D%2522Avatar-3%2522%253E"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
         </div>
         <div class="divider"></div>
         <div class="content-title">Square Avatar</div>
@@ -144,11 +147,7 @@
               alt="Avatar-3"
             />
           </div>
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520la%2520square%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-1.jpg%2522%2520alt%253D%2522Avatar-1%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520md%2520square%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-2.jpg%2522%2520alt%253D%2522Avatar-2%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520sm%2520square%2522%2520src%253D%2522..%252F..%252FAssets%252Favatar-3.jpg%2522%2520alt%253D%2522Avatar-3%2522%253E"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+
           <div class="divider"></div>
           <div class="page-change">
             <a href="../Avatar/Avatar.html"> < Avatar</a>
