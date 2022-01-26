@@ -37,6 +37,17 @@
   
 }
 
+@media screen and (max-width: 1150px) {
+  html {
+    font-size: 67%;
+  }
+
+  .content {
+
+    margin-left: auto;
+  }
+}
+
 @media screen and (max-width: 850px) {
   html {
     font-size: 65%;
@@ -52,6 +63,7 @@
 
   .content {
     padding: 1rem;
+    margin-left: auto;
   }
 
   .list-topic {
