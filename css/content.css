@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(17, 90, 133);
+  background-color: rgb(21, 103, 151);
   min-height: 20rem;
   flex-wrap: wrap;
 }
