@@ -32,5 +32,5 @@ a {
 }
 
 .list-subtopic .active {
-  color: var(--red);
+  color: var(--primary-color);
 }

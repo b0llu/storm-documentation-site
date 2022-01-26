@@ -7,7 +7,7 @@ nav {
 }
 
 .name {
-  color: var(--red);
+  color: var(--primary-color);
   font-size: 4rem;
   letter-spacing: 0.5rem;
 }

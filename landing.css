@@ -11,7 +11,7 @@ html {
 }
 
 :root {
-  --default-color: #0b0b0c;
+  --default-color: #101011;
   --white: #ffffff;
   --red: #ff002b;
   --primary-color: #4446f0;
@@ -37,7 +37,7 @@ main {
 .header {
   font-size: 10rem;
   font-weight: 600;
-  background: -webkit-linear-gradient(#ff0000, rgb(0, 0, 0));
+  background: -webkit-linear-gradient(var(--primary-color), rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

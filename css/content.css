@@ -7,7 +7,7 @@
 }
 
 .content-container {
-  border: 1px solid var(--red);
+  border: 1px solid var(--primary-color);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 2rem;
@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(236, 110, 118);
+  background-color: rgb(17, 90, 133);
   min-height: 20rem;
   flex-wrap: wrap;
 }
