@@ -31,6 +31,6 @@ a {
   font-size: 2rem;
 }
 
-.list-subtopic .active {
+.list-subtopic .link-active {
   color: var(--primary-color);
 }
