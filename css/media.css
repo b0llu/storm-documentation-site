@@ -28,12 +28,11 @@
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 1.5rem;
-  height: 20rem;
+  height: 25rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #9D0208;
-  max-width: 50rem;
+  background-color: var(--default-color);
   flex-wrap: wrap;
 }
 
