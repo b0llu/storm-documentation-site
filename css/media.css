@@ -32,8 +32,9 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: var(--default-color);
+  background-color: rgb(236, 110, 118);
   flex-wrap: wrap;
+  
 }
 
 @media screen and (max-width: 850px) {
