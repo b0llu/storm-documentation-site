@@ -22,20 +22,6 @@
   grid-area: contentarea;
 }
 
-.content-container {
-  border: 1px solid var(--red);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-radius: 1.5rem;
-  height: 25rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: rgb(236, 110, 118);
-  flex-wrap: wrap;
-  
-}
 
 @media screen and (max-width: 1150px) {
   html {

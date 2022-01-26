@@ -6,6 +6,19 @@
   padding-right: 1rem;
 }
 
+.content-container {
+  border: 1px solid var(--red);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(236, 110, 118);
+  flex-wrap: wrap;
+}
+
 .content-title {
   font-size: 4rem;
   font-weight: 900;
