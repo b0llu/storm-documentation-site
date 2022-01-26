@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css" />
+    <link rel="stylesheet" href="../../css/content.css" />
+    <link rel="stylesheet" href="../../css/divider.css" />
+    <link rel="stylesheet" href="../../css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://storm-components.netlify.app/components.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Storm UI</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <a class="name" href="../../index.html">Storm</a>
+      </nav>
+      <div class="side-bar">
+        <div class="nested-list stick">
+          <div>
+            <div class="list-topic">Get Started</div>
+            <div class="list-subtopic">
+              <li>
+                <a href="../../Documentation/Introduction.html">Introduction</a>
+              </li>
+              <li><a href="../../Documentation/Color.html">Colors</a></li>
+              <li>
+                <a href="../../Documentation/Typography.html">Typography</a>
+              </li>
+              <li>
+                <a href="../../Documentation/Conclusion.html">Conclusion</a>
+              </li>
+            </div>
+          </div>
+          <div>
+            <div class="list-topic">Components</div>
+            <div class="list-subtopic">
+              <li>
+                <a href="../Avatar/Avatar.html">Avatar</a>
+              </li>
+              <li><a href="../Badge/Badge.html">Badge</a></li>
+              <li><a class="active" href="./Alert.html">Alert</a></li>
+              <li><a href="#">Button</a></li>
+              <li><a href="#">Card</a></li>
+              <li><a href="#">Image</a></li>
+              <li><a href="#">Input</a></li>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+      <div class="content">
+        <div class="content-title">Badge</div>
+        <div class="sub-content">
+          Badges are small circles, positioned either at top-right or
+          bottom-right of the parent component. Badge can be used to display
+          numbers, online / offline status, depending on where they are used
+        </div>
+        <div class="divider"></div>
+        <div class="content-title">Profile Badge V1</div>
+        <div class="sub-content">
+          Profile Badge is used to show the current status of a user. (Showing
+          status with a circular dot)
+          <br />
+          <div class="content-container">
+            <div class="badge">
+              <img
+                class="avatar"
+                src="../../Assets/avatar-1.jpg"
+                alt="Avatar-1"
+              />
+              <div class="online"></div>
+            </div>
+            <div class="badge">
+              <img
+                class="avatar"
+                src="../../Assets/avatar-2.jpg"
+                alt="Avatar-2"
+              />
+              <div class="dnd"></div>
+            </div>
+            <div class="badge">
+              <img
+                class="avatar"
+                src="../../Assets/avatar-3.jpg"
+                alt="Avatar-3"
+              />
+              <div class="offline"></div>
+            </div>
+          </div>
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%2509%253Cimg%250A%2509%2509class%253D%2522avatar%2522%250A%2509%2509src%253D%2522..%252F..%252FAssets%252Favatar-1.jpg%2522%250A%2509%2509alt%253D%2522Avatar-1%2522%250A%2509%2509%252F%253E%250A%2509%253Cdiv%2520class%253D%2522online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%2509%253Cimg%250A%2509%2509class%253D%2522avatar%2522%250A%2509%2509src%253D%2522..%252F..%252FAssets%252Favatar-2.jpg%2522%250A%2509%2509alt%253D%2522Avatar-2%2522%250A%2509%2509%252F%253E%250A%2509%253Cdiv%2520class%253D%2522dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%2509%253Cimg%250A%2509%2509class%253D%2522avatar%2522%250A%2509%2509src%253D%2522..%252F..%252FAssets%252Favatar-3.jpg%2522%250A%2509%2509alt%253D%2522Avatar-3%2522%250A%2509%2509%252F%253E%250A%2509%253Cdiv%2520class%253D%2522offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+        <div class="divider"></div>
+        <div class="content-title">Profile Badge V2</div>
+        <div class="sub-content">
+          Profile Badge is used to show the current status of a user. (Showing
+          status with a border)
+          <br />
+          <div class="content-container">
+            <div class="badge">
+              <img
+                class="avatar online-border"
+                src="../../Assets/avatar-1.jpg"
+                alt="Avatar-1"
+              />
+            </div>
+            <div class="badge">
+              <img
+                class="avatar dnd-border"
+                src="../../Assets/avatar-2.jpg"
+                alt="Avatar-2"
+              />
+            </div>
+            <div class="badge">
+              <img
+                class="avatar offline-border"
+                src="../../Assets/avatar-3.jpg"
+                alt="Avatar-3"
+              />
+            </div>
+          </div>
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%2509%253Cimg%250A%2509%2509class%253D%2522avatar%2520online-border%2522%250A%2509%2509src%253D%2522..%252F..%252FAssets%252Favatar-1.jpg%2522%250A%2509%2509alt%253D%2522Avatar-1%2522%250A%2509%2509%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%2509%253Cimg%250A%2509%2509class%253D%2522avatar%2520dnd-border%2522%250A%2509%2509src%253D%2522..%252F..%252FAssets%252Favatar-2.jpg%2522%250A%2509%2509alt%253D%2522Avatar-2%2522%250A%2509%2509%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%2509%253Cimg%250A%2509%2509class%253D%2522avatar%2520offline-border%2522%250A%2509%2509src%253D%2522..%252F..%252FAssets%252Favatar-3.jpg%2522%250A%2509%2509alt%253D%2522Avatar-3%2522%250A%2509%2509%252F%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+        <div class="divider"></div>
+        <div class="content-title">Icon Badge</div>
+        <div class="sub-content">
+          Number Badge is used to show the no. of items present in the parent component. 
+          <div class="content-container">
+            <div class="badge">
+              <i class="fas fa-envelope"></i>
+              <div class="number">10</div>
+            </div> 
+            <div class="badge">
+              <i class="fab fa-whatsapp"></i>
+              <div class="number">2</div>
+            </div> 
+            <div class="badge">
+              <i class="fas fa-shopping-cart"></i>
+              <div class="number">7</div>
+            </div> 
+          </div>
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2509%253Cdiv%2520class%253D%2522number%2522%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Ci%2520class%253D%2522fab%2520fa-whatsapp%2522%253E%253C%252Fi%253E%250A%2509%253Cdiv%2520class%253D%2522number%2522%253E2%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%253Cdiv%2520class%253D%2522number%2522%253E7%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+        <div class="divider"></div>
+        <div class="page-change">
+            <a href="../Badge/Badge.html"> < Badge</a>
+            <a href="../Alert/Alert.html">Button ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
