@@ -1,0 +1,36 @@
+/* ------------ sidebar ---------------- */
+
+.side-bar {
+  color: var(--white);
+  list-style: none;
+  margin-right: 10rem;
+  padding-left: 2rem;
+}
+
+.stick {
+    position: sticky;
+    top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.list-topic {
+  font-weight: 500;
+  border-bottom: 1px solid rgb(77, 74, 74);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.list-subtopic {
+  padding: 2rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+}
+
+.list-subtopic .active {
+  color: var(--red);
+}

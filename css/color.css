@@ -1,0 +1,41 @@
+/* ------------------------------ colors ------------------- */
+.palette {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.palette > div {
+    width: 120px;
+    height: 120px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.alert {
+    background-color: var(--alert-color);
+}
+
+.success {
+    background-color: var(--success-color);
+}
+
+.warning {
+    background-color: var(--warning-color);
+}

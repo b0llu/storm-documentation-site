@@ -1,0 +1,40 @@
+.content {
+  color: var(--white);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+  padding-right: 1rem;
+}
+
+.content-title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.sub-content {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+iframe {
+    width: 50rem; 
+    height: 25rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.page-change {
+    display: none;
+}
+
+.page-change > a {
+    text-decoration: none;
+    color: var(--red);
+}
+
+.color-tag {
+    margin-left: auto;
+}

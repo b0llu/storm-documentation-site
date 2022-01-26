@@ -1,0 +1,13 @@
+.social-container {
+  padding-top: 1.5rem;
+  width: 40rem;
+}
+
+.social {
+  font-weight: 500;
+  width: 20rem;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+}

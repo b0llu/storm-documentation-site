@@ -1,0 +1,41 @@
+.typo-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--alert-color);
+    border-radius: 0.5rem;
+}
+
+.typo-container > h1 {
+    border-bottom: 1px solid rgb(77, 74, 74);
+    margin-bottom: 0.5rem;
+    padding: 1.5rem;
+}
+.typo-container > h2 {
+    border-bottom: 1px solid rgb(77, 74, 74);
+    margin-bottom: 0.5rem;
+    padding: 1.5rem;
+}
+.typo-container > h3 {
+    border-bottom: 1px solid rgb(77, 74, 74);
+    margin-bottom: 0.5rem;
+    padding: 1.5rem;
+}
+.typo-container > h4 {
+    border-bottom: 1px solid rgb(77, 74, 74);
+    margin-bottom: 0.5rem;
+    padding: 1.5rem;
+}
+.typo-container > h5 {
+    border-bottom: 1px solid rgb(77, 74, 74);
+    margin-bottom: 0.5rem;
+    padding: 1.5rem;
+}
+.typo-container > h6 {
+    border-bottom: 1px solid rgb(77, 74, 74);
+    padding: 1.5rem;
+}
+
+.red {
+    color: var(--red);
+}
