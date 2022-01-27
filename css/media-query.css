@@ -7,6 +7,10 @@
 
     margin-left: auto;
   }
+
+  .container {
+    grid-template-columns: 30rem 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 850px) {

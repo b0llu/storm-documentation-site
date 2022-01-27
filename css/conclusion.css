@@ -11,3 +11,8 @@
   border: 1px solid var(--secondary-color);
   cursor: pointer;
 }
+
+.social:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}

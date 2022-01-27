@@ -14,7 +14,7 @@ html {
   --default-color: #101011;
   --white: #ffffff;
   --red: #ff002b;
-  --primary-color: rgb(85,229,245);
+  --primary-color: #55E5F5;
   --secondary-color: #f3f4f6;
 }
 
@@ -78,24 +78,24 @@ a {
 
 .btn-primary {
   background-color: var(--primary-color);
-  color: black;
+  color: #101011;
 }
 
 .btn-primary:hover {
-  background-color: #2156b8;
-  color: var(--white);
+  background-color: #28ddf1;
+  color: #101011;
   transition: 0.5s ease-in-out;
 }
 
 .btn-secondary {
   background-color: var(--secondary-color);
-  color: black;
+  color: #101011;
 }
 
 .btn-secondary:hover {
-  background-color: #4b4949;
+  background-color: #c7ccd5;
   transition: 0.5s ease-in-out;
-  color: var(--white);
+  color: #101011;
 }
 
 @media screen and (max-width: 850px) {
