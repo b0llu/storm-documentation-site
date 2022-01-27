@@ -25,12 +25,15 @@
   font-size: 4rem;
   font-weight: 900;
   margin-bottom: 3rem;
+  color: var(--header-color);
+  letter-spacing: 0.2rem;
 }
 
 .sub-content {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 400;
   line-height: 3rem;
+  color: var(--content-color);
 }
 
 iframe {

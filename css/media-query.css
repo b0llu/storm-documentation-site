@@ -10,16 +10,16 @@
   .container {
     grid-template-columns: 30rem 1fr 1fr;
     grid-template-areas:
-    "nav nav nav"
-    "sidebar contentarea contentarea"
-    "sidebar contentarea contentarea"
-    "sidebar contentarea contentarea";
+      "nav nav nav"
+      "sidebar contentarea contentarea"
+      "sidebar contentarea contentarea"
+      "sidebar contentarea contentarea";
   }
 
   .side-bar {
-  margin-right: 5rem;
-  margin-left: 1rem;
-}
+    margin-right: 5rem;
+    margin-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -37,7 +37,6 @@
     margin-left: 1rem;
   }
 
-
   .content {
     padding: 1rem;
     margin-left: auto;
@@ -45,7 +44,7 @@
 
   .list-topic {
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   iframe {
