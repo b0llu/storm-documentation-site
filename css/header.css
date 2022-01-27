@@ -10,4 +10,5 @@ nav {
   color: var(--primary-color);
   font-size: 4rem;
   letter-spacing: 0.5rem;
+  margin-left: 15rem;
 }

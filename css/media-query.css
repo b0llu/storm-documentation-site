@@ -20,6 +20,10 @@
     margin-right: 5rem;
     margin-left: 1rem;
   }
+
+  .name {
+    margin-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -42,6 +46,10 @@
     margin-left: 1rem;
   }
 
+  .list-subtopic {
+    margin-left: 2rem;
+  }
+
   .content {
     padding: 1rem;
     margin-left: auto;
@@ -58,6 +66,10 @@
     border: 0;
     transform: scale(1);
     overflow: hidden;
+  }
+
+  .name {
+    margin-left: 0;
   }
 }
 
@@ -83,7 +95,6 @@
     justify-content: space-between;
     font-size: 2rem;
   }
-
 
   .container {
     grid-template-columns: 1fr 1fr;
@@ -112,7 +123,7 @@
   }
 
   .name {
-    color: var(--red);
+    color: var(--primary-color);
     font-size: 4rem;
     letter-spacing: 0.2rem;
   }
