@@ -29,6 +29,14 @@
     background-color: var(--secondary-color);
 }
 
+.palette-header {
+    background-color: var(--header-color);
+}
+
+.palette-content {
+    background-color: var(--content-color);
+}
+
 .palette-alert {
     background-color: var(--alert-color);
 }
