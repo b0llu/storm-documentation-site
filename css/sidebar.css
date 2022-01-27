@@ -34,3 +34,7 @@ a {
 .link-active {
   color: var(--primary-color);
 }
+
+.link-hover:hover {
+  color: var(--primary-color);
+}
