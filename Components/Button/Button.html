@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://storm-components.netlify.app/components.css"
     />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Storm UI</title>
   </head>
   <body>
@@ -97,13 +98,29 @@
 <h1 class="content-title">Link Button</h1>
 <p class="sub-content">
     Want to attach a link action, at a button tap? Use Link Button
+    <div class="content-container">
+        <button class="btn link-btn">
+            <a href="link">Link</a>
+        </button>
+    </div>
 </p>
-<div class="content-container">
-    <button class="btn link-btn">
-        <a href="link">Link</a>
-    </button>
-</div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28222%2C171%2C99%2C1%29&t=duotone-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520link-btn%2522%253E%250A%2509%253Ca%2520href%253D%2522link%2522%253ELink%253C%252Fa%253E%250A%253C%252Fbutton%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 <div class="divider"></div>
+<h1 class="content-title">Icon Button</h1>
+<p class="sub-content">
+    Icon Buttons can be created, by using a SVG as a child to parent button.
+    <div class="content-container">
+        <button class="icon-btn">
+            <i class="far fa-bookmark"></i>Bookmark
+        </button>
+        <button class="icon-btn">
+            <i class="far fa-save"></i>Save
+        </button>
+    </div>
+</p>
 
             <div class="page-change">
                 <a href="../Alert/Alert.html"> < Alert</a>
