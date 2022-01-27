@@ -41,7 +41,7 @@ main {
 }
 
 .header-tag {
-  max-width: 37rem;
+  max-width: 50rem;
   color: var(--white);
   padding-top: 3rem;
   line-height: 4rem;
@@ -49,17 +49,17 @@ main {
 }
 
 .subhead {
-  max-width: 55rem;
+  max-width: 50rem;
   padding-top: 3rem;
   color: var(--white);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .two-btn {
   padding-top: 3rem;
   display: flex;
   justify-content: space-evenly;
-  width: 40rem;
+  width: 50rem;
 }
 
 .btn {
@@ -102,10 +102,44 @@ a {
   html {
     font-size: 65%;
   }
+
+  .header {
+    font-size: 9rem;
+    width: 45rem;
+  }
+
+  .header-tag {
+    width: 45rem;
+  }
+
+  .subhead {
+    width: 45rem;
+  }
+
+  .two-btn {
+    width: 45rem;
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   html {
     font-size: 55%;
+  }
+
+  .header {
+    font-size: 8rem;
+    width: 37rem;
+  }
+
+  .header-tag {
+    width: 37rem;
+  }
+
+  .subhead {
+    width: 37rem;
+  }
+
+  .two-btn {
+    width: 37rem;
   }
 }
