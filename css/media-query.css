@@ -29,6 +29,11 @@
 
   .container {
     grid-template-columns: 20rem 1fr 1fr;
+    grid-template-areas:
+      "nav nav nav"
+      "sidebar contentarea contentarea"
+      "sidebar contentarea contentarea"
+      "sidebar contentarea contentarea";
   }
 
   .side-bar {
@@ -71,11 +76,16 @@
 
   .page-change {
     display: block;
+    width: auto;
     margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 2rem;
+  }
+
+  .content {
+
   }
 
   .container {
