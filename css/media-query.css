@@ -4,13 +4,22 @@
   }
 
   .content {
-
     margin-left: auto;
   }
 
   .container {
     grid-template-columns: 30rem 1fr 1fr;
+    grid-template-areas:
+    "nav nav nav"
+    "sidebar contentarea contentarea"
+    "sidebar contentarea contentarea"
+    "sidebar contentarea contentarea";
   }
+
+  .side-bar {
+  margin-right: 5rem;
+  margin-left: 1rem;
+}
 }
 
 @media screen and (max-width: 850px) {
@@ -18,13 +27,16 @@
     font-size: 65%;
   }
 
-  .side-bar {
-    margin-right: 1rem;
-  }
-
   .container {
     grid-template-columns: 20rem 1fr 1fr;
   }
+
+  .side-bar {
+    padding-left: 0;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
 
   .content {
     padding: 1rem;

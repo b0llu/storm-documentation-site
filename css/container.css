@@ -2,12 +2,12 @@
 /*--------------------------- Main container -------------------------*/
 .container {
   display: grid;
-  grid-template-columns: 35rem 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "nav nav nav"
-    "sidebar contentarea contentarea"
-    "sidebar contentarea contentarea"
-    "sidebar contentarea contentarea";
+    "nav nav nav nav nav"
+    "sidebar sidebar contentarea contentarea contentarea"
+    "sidebar sidebar contentarea contentarea contentarea"
+    "sidebar sidebar contentarea contentarea contentarea";
 }
 
 .navbar {

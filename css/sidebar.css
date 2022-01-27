@@ -3,7 +3,8 @@
 .side-bar {
   color: var(--white);
   list-style: none;
-  margin-right: 5rem;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 2rem;
 }
 
