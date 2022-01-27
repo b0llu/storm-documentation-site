@@ -5,11 +5,13 @@
 
 .social {
   font-weight: 500;
-  width: 20rem;
-  padding: 0.8rem;
+  width: 30rem;
+  padding: 1rem;
   border-radius: 0.3rem;
   border: 1px solid var(--secondary-color);
   cursor: pointer;
+  margin-right: 1rem;
+  font-size: 2rem;
 }
 
 .social:hover {
