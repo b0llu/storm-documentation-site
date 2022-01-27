@@ -2,7 +2,7 @@
 /*--------------------------- Main container -------------------------*/
 .container {
   display: grid;
-  grid-template-columns: 40rem 1fr 1fr;
+  grid-template-columns: 35rem 1fr 1fr;
   grid-template-areas:
     "nav nav nav"
     "sidebar contentarea contentarea"
