@@ -84,9 +84,6 @@
     font-size: 2rem;
   }
 
-  .content {
-
-  }
 
   .container {
     grid-template-columns: 1fr 1fr;
