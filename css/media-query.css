@@ -138,4 +138,7 @@
     letter-spacing: 0.2rem;
   }
 
+  .code-container {
+    width: 40rem;
+  }
 }
