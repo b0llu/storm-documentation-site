@@ -31,7 +31,9 @@ a {
 .list-subtopic {
   line-height: 4.5rem;
   font-size: 2rem;
+  list-style-type: none;
 }
+
 
 .link-active {
   color: var(--primary-color);
