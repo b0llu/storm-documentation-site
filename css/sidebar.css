@@ -41,3 +41,7 @@ a {
 .link-hover:hover {
   color: var(--primary-color);
 }
+
+.code-container {
+    width: auto;
+}
