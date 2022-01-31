@@ -22,29 +22,29 @@
 }
 
 .palette-primary {
-    background-color: var(--primary-color);
+    background-color: #66e8f6;
 }
 
 .palette-secondary {
-    background-color: var(--secondary-color);
+    background-color: #c3c5c7;
 }
 
 .palette-header {
-    background-color: var(--header-color);
+    background-color: #238ac5;
 }
 
 .palette-content {
-    background-color: var(--content-color);
+    background-color: #b6bab3;
 }
 
 .palette-alert {
-    background-color: var(--alert-color);
+    background-color: #f44336;
 }
 
 .palette-success {
-    background-color: var(--success-color);
+    background-color: #4CAF50;
 }
 
 .palette-warning {
-    background-color: var(--warning-color);
+    background-color: #FF9800;
 }
