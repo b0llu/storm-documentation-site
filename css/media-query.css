@@ -2,6 +2,28 @@
   .icon-container {
     margin-right: 0;
   }
+
+  .container {
+    grid-template-columns: 35rem 1fr 1fr;
+    grid-template-areas:
+      "nav nav nav"
+      "sidebar contentarea contentarea"
+      "sidebar contentarea contentarea"
+      "sidebar contentarea contentarea";
+  }
+
+  .content {
+    margin-left: auto;
+  }
+
+  .side-bar {
+    margin-left: auto;
+  }
+
+  .name {
+    margin-left: 5rem;
+  }
+
 }
 
 @media screen and (max-width: 1150px) {
@@ -85,10 +107,7 @@
   }
 
   iframe {
-    width: 35rem;
-    height: 35rem;
-    border: 0;
-    transform: scale(1);
+    width: auto;
     overflow: hidden;
   }
 
