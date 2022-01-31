@@ -25,6 +25,7 @@ a {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 3rem;
+  color: var(--white);
 }
 
 .list-subtopic {
