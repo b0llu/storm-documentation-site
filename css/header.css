@@ -8,7 +8,7 @@ nav {
   align-items: center;
 }
 
-.navbar i {
+.icon {
   color: var(--icon-color);
 }
 
