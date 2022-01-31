@@ -30,3 +30,55 @@
   background: var(--primary-color);
   border-radius: 10px;
 }
+
+iframe {
+  width: 100%;
+}
+
+.iframe-h-50{
+  height: 50rem;
+}
+
+.iframe-h-47{
+  height: 47rem;
+}
+
+.iframe-h-45{
+  height: 45rem;
+}
+
+.iframe-h-41{
+  height: 41rem;
+}
+
+.iframe-h-40{
+  height: 40rem;
+}
+
+.iframe-h-36{
+  height: 36rem;
+}
+
+.iframe-h-35 {
+  height: 35rem;
+}
+
+.iframe-h-33 {
+  height: 33rem;
+}
+
+.iframe-h-32 {
+  height: 32rem;
+}
+
+.iframe-h-30 {
+  height: 30rem;
+}
+
+.iframe-h-28 {
+  height: 28rem;
+}
+
+.iframe-h-25 {
+  height: 25rem;
+}
