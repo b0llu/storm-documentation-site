@@ -11,11 +11,11 @@ html {
 }
 
 :root {
-  --default-color: #101011;
-  --white: #ffffff;
+  --default-color: #e8ecee;
+  --for-theme: #171616;
   --red: #ff002b;
-  --primary-color: #55E5F5;
-  --secondary-color: #f3f4f6;
+  --primary-color: #238ac5;
+  --secondary-color: #c3c5c7;
 }
 
 body {
@@ -42,7 +42,7 @@ main {
 
 .header-tag {
   max-width: 50rem;
-  color: var(--white);
+  color: var(--for-theme);
   padding-top: 3rem;
   line-height: 4rem;
   font-size: 3.5rem;
@@ -51,7 +51,7 @@ main {
 .subhead {
   max-width: 50rem;
   padding-top: 3rem;
-  color: var(--white);
+  color: var(--for-theme);
   font-size: 1.7rem;
 }
 
