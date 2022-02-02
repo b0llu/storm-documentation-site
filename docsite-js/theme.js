@@ -7,7 +7,7 @@ const addDarkTheme = () => {
   rootDoc.style.setProperty("--default-color", "#101011");
   rootDoc.style.setProperty("--for-theme", "#ffffff");
   rootDoc.style.setProperty("--primary-color", "#55E5F5");
-  rootDoc.style.setProperty("--primary-color-dark", "#66e8f6");
+  rootDoc.style.setProperty("--primary-color-dark", "#05cddf");
   rootDoc.style.setProperty("--secondary-color", "#c3c5c7");
   rootDoc.style.setProperty("--alert-color", "#e65147");
   rootDoc.style.setProperty("--success-color", "#4caf50");
