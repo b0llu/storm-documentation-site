@@ -34,10 +34,11 @@
         </a>
       </div>
     </nav>
-    <div class="side-bar">
+    <div id="sidebar-menu" class="side-bar position-hidden">
       <div class="nested-list stick">
         <div>
-          <h1 class="list-topic">Get Started</h1>
+          <h1 class="list-topic display-flex">Get Started <span class="margin-left"><i id="close-sidebar"
+                class="fas fa-times-circle"></i></span></h1>
           <ul class="list-subtopic">
             <li>
               <a class="link-hover" href="./Introduction.html">Introduction</a>
@@ -69,6 +70,7 @@
       </div>
     </div>
     <div class="content">
+      <i id="sidebar-toggle" class="fas fa-bars hamburger"></i>
       <h1 class="content-title">Conclusion</h1>
       <p class="sub-content">
         You are now ready to use the Storm component library! You have read all the docs neccessary for you to
@@ -97,6 +99,7 @@
   </div>
   </div>
   <script src="../docsite-js/theme.js"></script>
+  <script src="../docsite-js/sidebar.js"></script>
 </body>
 
 </html>

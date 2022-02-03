@@ -33,10 +33,10 @@
         </a>
       </div>
     </nav>
-    <div class="side-bar">
-      <div class="nested-list stick">
+    <div id="sidebar-menu" class="side-bar position-hidden">
+      <div  class="nested-list stick">
         <div>
-          <h1 class="list-topic">Get Started</h1>
+          <h1 class="list-topic display-flex">Get Started <span class="margin-left"><i id="close-sidebar" class="fas fa-times-circle"></i></span></h1>
           <ul class="list-subtopic">
             <li>
               <a class="link-active" href="./Introduction.html">Introduction</a>
@@ -78,9 +78,9 @@
           </ul>
         </div>
       </div>
-      <div></div>
     </div>
     <div class="content">
+      <i id="sidebar-toggle" class="fas fa-bars hamburger"></i>
       <h1 class="content-title">Introduction to Storm</h1>
       <p class="sub-content">
         Storm is an open source styling framework, which helps Developers to
@@ -116,6 +116,7 @@
     </div>
   </div>
   <script src="../docsite-js/theme.js"></script>
+  <script src="../docsite-js/sidebar.js"></script>
 </body>
 
 </html>

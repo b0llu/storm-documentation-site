@@ -34,7 +34,6 @@ a {
   list-style-type: none;
 }
 
-
 .link-active {
   color: var(--primary-color);
 }
