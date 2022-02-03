@@ -1,144 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/sidebar.css" />
-    <link rel="stylesheet" href="../../css/content.css" />
-    <link rel="stylesheet" href="../../css/divider.css" />
-    <link rel="stylesheet" href="../../css/container.css" />
-    <link rel="stylesheet" href="../../css/media-query.css" />
-    <link
-      rel="stylesheet"
-      href="https://storm-components.netlify.app/components.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <title>Lists | Storm UI</title>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="navbar">
-        <a class="name" href="../../index.html"><i class="fas fa-bolt"></i> STORM</a>
-        <div class="icon-container">
-          <a href="https://github.com/B0llu">
-            <i class="fab fa-github icon"></i>
-          </a>
-          <a href="https://twitter.com/TheBestDhruv">
-            <i class="fab fa-twitter icon"></i>
-          </a>
-          <a>
-            <i id="toggle-theme" class="fas fa-moon icon"></i>
-          </a>
-        </div>
-      </nav>
-      <div class="side-bar">
-        <div class="nested-list stick">
-          <div>
-            <h1 class="list-topic">Get Started</h1>
-            <ul class="list-subtopic">
-              <li>
-                <a
-                  class="link-hover"
-                  href="../../Documentation/Introduction.html"
-                  >Introduction</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../../Documentation/Color.html"
-                  >Colors</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../../Documentation/Typography.html"
-                  >Typography</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../../Documentation/Conclusion.html"
-                  >Conclusion</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h1 class="list-topic">Components</h1>
-            <ul class="list-subtopic">
-              <li>
-                <a class="link-hover" href="../Avatar/Avatar.html">Avatar</a>
-              </li>
-              <li>
-                <a class="link-hover" href="../Badge/Badge.html">Badge</a>
-              </li>
-              <li>
-                <a class="link-hover" href="../Alert/Alert.html">Alert</a>
-              </li>
-              <li>
-                <a class="link-hover" href="../Button/Button.html">Button</a>
-              </li>
-              <li><a class="link-hover" href="../Card/card.html">Card</a></li>
-              <li><a class="link-hover" href="../Image/image.html">Image</a></li>
-              <li><a class="link-hover" href="../Input/input.html">Input</a></li>
-              <li><a class="link-hover" href="../text-utilites/text-utilites.html">Text Utilities</a></li>
-              <li><a class="link-active" href="./lists.html">Lists</a></li>
-              <li><a class="link-hover" href="../navigation/navigation.html">Navigation</a></li>
-              <li><a class="link-hover" href="../modal/modal.html">Modal</a></li>
-              <li><a class="link-hover" href="../rating/rating.html">Rating</a></li>
-            </ul>
-          </div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../css/header.css" />
+  <link rel="stylesheet" href="../../css/sidebar.css" />
+  <link rel="stylesheet" href="../../css/content.css" />
+  <link rel="stylesheet" href="../../css/divider.css" />
+  <link rel="stylesheet" href="../../css/container.css" />
+  <link rel="stylesheet" href="../../css/media-query.css" />
+  <link rel="stylesheet" href="https://storm-components.netlify.app/components.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Lists | Storm UI</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <a class="name" href="../../index.html"><i class="fas fa-bolt"></i> STORM</a>
+      <div class="icon-container">
+        <a href="https://github.com/B0llu">
+          <i class="fab fa-github icon"></i>
+        </a>
+        <a href="https://twitter.com/TheBestDhruv">
+          <i class="fab fa-twitter icon"></i>
+        </a>
+        <a>
+          <i id="toggle-theme" class="fas fa-moon icon"></i>
+        </a>
       </div>
-      <div class="content">
-        <h1 class="content-title">Lists</h1>
-        <p class="sub-content">
-          Lists are continuous, vertical indexes of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.
-        </p>
-        <div class="divider"></div>
-        <h1 class="content-title">Simple List</h1>
-        <p class="sub-content">This is a Simple List seen in many site's.
-            <div class="content-container">
-              <ul class="container-list">
-                  <div class="list-title">Categories</div>
-                  <li>Home</li>
-                  <li>Blogs</li>
-                  <li>Projects</li>
-                  <li>Social</li>
-              </ul>
-            </div>
-        </p>
-        <iframe class="iframe-h-32"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522container-list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-title%2522%253ECategories%253C%252Fdiv%253E%250A%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%253Cli%253EBlogs%253C%252Fli%253E%250A%2520%2520%253Cli%253EProjects%253C%252Fli%253E%250A%2520%2520%253Cli%253ESocial%253C%252Fli%253E%250A%253C%252Ful%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-<h1 class="content-title">Notification Lists</h1>
-        <p class="sub-content">These lists will have header and its subtext.
-            <div class="content-container">
-                <ul class="notification-list">
-                  <li>Notification 1</li>
-                  <li>Notification 2</li>
-                  <li>Notification 2</li>
-                  <li>Notification 2</li>
-              </ul>
-            </div>
-        </p>
-        <iframe class="iframe-h-30"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522notification-list%2522%253E%250A%2520%2520%253Cli%253ENotification%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253ENotification%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253ENotification%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253ENotification%25202%253C%252Fli%253E%250A%253C%252Ful%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-<div class="page-change">
-                <a href="../Input/input.html"> < Input</a>
-                <a href="../Input/input.html">Lists ></a>
-              </div>
+    </nav>
+    <div class="side-bar">
+      <div class="nested-list stick">
+        <div>
+          <h1 class="list-topic">Get Started</h1>
+          <ul class="list-subtopic">
+            <li>
+              <a class="link-hover" href="../../Documentation/Introduction.html">Introduction</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../../Documentation/Color.html">Colors</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../../Documentation/Typography.html">Typography</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../../Documentation/Conclusion.html">Conclusion</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="list-topic">Components</h1>
+          <ul class="list-subtopic">
+            <li>
+              <a class="link-hover" href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Badge/Badge.html">Badge</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Button/Button.html">Button</a>
+            </li>
+            <li><a class="link-hover" href="../Card/card.html">Card</a></li>
+            <li><a class="link-hover" href="../Image/image.html">Image</a></li>
+            <li><a class="link-hover" href="../Input/input.html">Input</a></li>
+            <li><a class="link-hover" href="../text-utilites/text-utilites.html">Text Utilities</a></li>
+            <li><a class="link-active" href="./lists.html">Lists</a></li>
+            <li><a class="link-hover" href="../navigation/navigation.html">Navigation</a></li>
+            <li><a class="link-hover" href="../modal/modal.html">Modal</a></li>
+            <li><a class="link-hover" href="../rating/rating.html">Rating</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-    <script src="../../docsite-js/theme.js"></script>
-  </body>
+    <div class="content">
+      <h1 class="content-title">Lists</h1>
+      <p class="sub-content">
+        Lists are continuous, vertical indexes of text or images. They are composed of items containing primary and
+        supplemental actions, which are represented by icons and text.
+      </p>
+      <div class="divider"></div>
+      <h1 class="content-title">Simple List</h1>
+      <p class="sub-content">This is a Simple List seen in many site's.
+        <div class="content-container">
+          <ul class="container-list">
+            <div class="list-title">Categories</div>
+            <li>Home</li>
+            <li>Blogs</li>
+            <li>Projects</li>
+            <li>Social</li>
+          </ul>
+        </div>
+      </p>
+      <iframe class="iframe-h-32"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522container-list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-title%2522%253ECategories%253C%252Fdiv%253E%250A%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%253Cli%253EBlogs%253C%252Fli%253E%250A%2520%2520%253Cli%253EProjects%253C%252Fli%253E%250A%2520%2520%253Cli%253ESocial%253C%252Fli%253E%250A%253C%252Ful%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <h1 class="content-title">Notification Lists</h1>
+      <p class="sub-content">These lists will have header and its subtext.
+        <div class="content-container">
+          <ul class="notification-list">
+            <li>Notification 1</li>
+            <li>Notification 2</li>
+            <li>Notification 2</li>
+            <li>Notification 2</li>
+          </ul>
+        </div>
+      </p>
+      <iframe class="iframe-h-30"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522notification-list%2522%253E%250A%2520%2520%253Cli%253ENotification%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253ENotification%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253ENotification%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253ENotification%25202%253C%252Fli%253E%250A%253C%252Ful%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <div class="page-change">
+        <a href="../Input/input.html">
+          < Input</a> <a href="../Input/input.html">Lists >
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="../../docsite-js/theme.js"></script>
+</body>
+
 </html>

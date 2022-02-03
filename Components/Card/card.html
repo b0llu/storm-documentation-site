@@ -1,238 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/sidebar.css" />
-    <link rel="stylesheet" href="../../css/content.css" />
-    <link rel="stylesheet" href="../../css/divider.css" />
-    <link rel="stylesheet" href="../../css/container.css" />
-    <link rel="stylesheet" href="../../css/media-query.css">
-    <link
-      rel="stylesheet"
-      href="https://storm-components.netlify.app/components.css"
-    />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css" >
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/railscasts.min.css" integrity="sha512-rtvj6tMmkVaWoe4mh5qd8yiYRoWna8i4A6+sowSJgkVE0WONXLmAIE750g41aHKB6k5hHmD3HFZS2fQhg3m27g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Card | Storm UI</title>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="navbar">
-        <a class="name" href="../../index.html"><i class="fas fa-bolt"></i> STORM</a>
-        <div class="icon-container">
-          <a href="https://github.com/B0llu">
-            <i class="fab fa-github icon"></i>
-          </a>
-          <a href="https://twitter.com/TheBestDhruv">
-            <i class="fab fa-twitter icon"></i>
-          </a>
-          <a>
-            <i id="toggle-theme" class="fas fa-moon icon"></i>
-          </a>
-        </div>
-      </nav>
-      <div class="side-bar">
-        <div class="nested-list stick">
-          <div>
-            <h1 class="list-topic">Get Started</h1>
-            <ul class="list-subtopic">
-              <li>
-                <a class="link-hover" href="../../Documentation/Introduction.html"
-                  >Introduction</a
-                >
-              </li>
-              <li><a class="link-hover" href="../../Documentation/Color.html">Colors</a></li>
-              <li>
-                <a class="link-hover" href="../../Documentation/Typography.html">Typography</a>
-              </li>
-              <li>
-                <a class="link-hover" href="../../Documentation/Conclusion.html">Conclusion</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h1 class="list-topic">Components</h1>
-            <ul class="list-subtopic">
-              <li>
-                <a class="link-hover" href="../Avatar/Avatar.html"
-                  >Avatar</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../Badge/Badge.html"
-                  >Badge</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../Alert/Alert.html"
-                  >Alert</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../Button/Button.html"
-                  >Button</a
-                >
-              </li>
-              <li><a class="link-active" href="./card.html">Card</a></li>
-              <li><a class="link-hover" href="../Image/image.html">Image</a></li>
-              <li><a class="link-hover" href="../Input/input.html">Input</a></li>
-              <li><a class="link-hover" href="../text-utilites/text-utilites.html">Text Utilities</a></li>
-              <li><a class="link-hover" href="../lists/lists.html">Lists</a></li>
-              <li><a class="link-hover" href="../navigation/navigation.html">Navigation</a></li>
-              <li><a class="link-hover" href="../modal/modal.html">Modal</a></li>
-              <li><a class="link-hover" href="../rating/rating.html">Rating</a></li>
-            </ul>
-          </div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../css/header.css" />
+  <link rel="stylesheet" href="../../css/sidebar.css" />
+  <link rel="stylesheet" href="../../css/content.css" />
+  <link rel="stylesheet" href="../../css/divider.css" />
+  <link rel="stylesheet" href="../../css/container.css" />
+  <link rel="stylesheet" href="../../css/media-query.css">
+  <link rel="stylesheet" href="https://storm-components.netlify.app/components.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/railscasts.min.css"
+    integrity="sha512-rtvj6tMmkVaWoe4mh5qd8yiYRoWna8i4A6+sowSJgkVE0WONXLmAIE750g41aHKB6k5hHmD3HFZS2fQhg3m27g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Card | Storm UI</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <a class="name" href="../../index.html"><i class="fas fa-bolt"></i> STORM</a>
+      <div class="icon-container">
+        <a href="https://github.com/B0llu">
+          <i class="fab fa-github icon"></i>
+        </a>
+        <a href="https://twitter.com/TheBestDhruv">
+          <i class="fab fa-twitter icon"></i>
+        </a>
+        <a>
+          <i id="toggle-theme" class="fas fa-moon icon"></i>
+        </a>
       </div>
-      <div class="content">
-          <h1 class="content-title">Card</h1>
-          <p class="sub-content">
-              Cards are surfaces that display content and actions on a single topic.
-              They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
-          </p>
-        <div class="divider"></div>
-        <h1 class="content-title">Card with Badge</h1>
-        <p class="sub-content">
-          A badge on card is used to show something important about a product in single word or a icon.
-          <div class="content-container">
-            <div class="card-container">
-                <img src="../../Assets/card-image-1.jpg" alt="A graphic card image">
-                <h6 class="card-badge">NEW</h6>
-                <h1 class="card-title">RTX 3050</h1>
-                <h2 class="card-subtitle">Nvidia</h2>
-                <p class="card-description">Rs.30000</p>
-                <div class="card-btn">
-                  <button class="btn primary-btn">Buy Now</button>
-                  <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-          </div>
-        </p>
-<iframe class="iframe-h-45"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Ch6%2520class%253D%2522card-badge%2522%253ENEW%253C%252Fh6%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ERTX%25203050%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ENvidia%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ERs.30000%253C%252Fp%253E%250A%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-<h1 class="content-title">Card with Dismiss</h1>
-<p class="sub-content">
-  A Dismiss card contains of a cross on top right side which will close the image pop up.
-  <div class="content-container">
-    <div class="card-container">
-        <img class="card-img" src="../../Assets/card-image-1.jpg" alt="A graphic card image">
-        <i class="fas fa-times dismiss"></i>
-        <h1 class="card-title">RTX 3050</h1>
-        <h2 class="card-subtitle">Nvidia</h2>
-        <p class="card-description">Rs.30000</p>
-        <div class="card-btn">
-          <button class="btn primary-btn">Buy Now</button>
-          <button class="btn">Add to Cart</button>
+    </nav>
+    <div class="side-bar">
+      <div class="nested-list stick">
+        <div>
+          <h1 class="list-topic">Get Started</h1>
+          <ul class="list-subtopic">
+            <li>
+              <a class="link-hover" href="../../Documentation/Introduction.html">Introduction</a>
+            </li>
+            <li><a class="link-hover" href="../../Documentation/Color.html">Colors</a></li>
+            <li>
+              <a class="link-hover" href="../../Documentation/Typography.html">Typography</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../../Documentation/Conclusion.html">Conclusion</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="list-topic">Components</h1>
+          <ul class="list-subtopic">
+            <li>
+              <a class="link-hover" href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Badge/Badge.html">Badge</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Button/Button.html">Button</a>
+            </li>
+            <li><a class="link-active" href="./card.html">Card</a></li>
+            <li><a class="link-hover" href="../Image/image.html">Image</a></li>
+            <li><a class="link-hover" href="../Input/input.html">Input</a></li>
+            <li><a class="link-hover" href="../text-utilites/text-utilites.html">Text Utilities</a></li>
+            <li><a class="link-hover" href="../lists/lists.html">Lists</a></li>
+            <li><a class="link-hover" href="../navigation/navigation.html">Navigation</a></li>
+            <li><a class="link-hover" href="../modal/modal.html">Modal</a></li>
+            <li><a class="link-hover" href="../rating/rating.html">Rating</a></li>
+          </ul>
         </div>
       </div>
     </div>
-</p>
-<iframe class="iframe-h-45"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ERTX%25203050%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ENvidia%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ERs.30000%253C%252Fp%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-  <h1 class="content-title">Card with Text Overlay</h1>
-<p class="sub-content">
-  This Card will have text over image. Use 'overlay-bottom' or 'overlay-top' for text over image.
-  <div class="content-container">
-    <div class="card-container">
-      <div class="img-container">
-        <img class="card-img" src="../../Assets/card-image-2.jpg" alt="A graphic card image">
-        <div class="card-text-overlay">
-          <h1 class="card-title">Nvidia</h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
+    <div class="content">
+      <h1 class="content-title">Card</h1>
+      <p class="sub-content">
+        Cards are surfaces that display content and actions on a single topic.
+        They should be easy to scan for relevant and actionable information. Elements, like text and images, should be
+        placed on them in a way that clearly indicates hierarchy.
+      </p>
+      <div class="divider"></div>
+      <h1 class="content-title">Card with Badge</h1>
+      <p class="sub-content">
+        A badge on card is used to show something important about a product in single word or a icon.
+        <div class="content-container">
+          <div class="card-container">
+            <img src="../../Assets/card-image-1.jpg" alt="A graphic card image">
+            <h6 class="card-badge">NEW</h6>
+            <h1 class="card-title">RTX 3050</h1>
+            <h2 class="card-subtitle">Nvidia</h2>
+            <p class="card-description">Rs.30000</p>
+            <div class="card-btn">
+              <button class="btn primary-btn">Buy Now</button>
+              <button class="btn">Add to Cart</button>
+            </div>
+          </div>
         </div>
-      </div>
-      <p class="card-description">RTX 2080 Ti graphics card is built for gaming realism and performance.</p>
+      </p>
+      <iframe class="iframe-h-45"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Ch6%2520class%253D%2522card-badge%2522%253ENEW%253C%252Fh6%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ERTX%25203050%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ENvidia%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ERs.30000%253C%252Fp%253E%250A%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <h1 class="content-title">Card with Dismiss</h1>
+      <p class="sub-content">
+        A Dismiss card contains of a cross on top right side which will close the image pop up.
+        <div class="content-container">
+          <div class="card-container">
+            <img class="card-img" src="../../Assets/card-image-1.jpg" alt="A graphic card image">
+            <i class="fas fa-times dismiss"></i>
+            <h1 class="card-title">RTX 3050</h1>
+            <h2 class="card-subtitle">Nvidia</h2>
+            <p class="card-description">Rs.30000</p>
+            <div class="card-btn">
+              <button class="btn primary-btn">Buy Now</button>
+              <button class="btn">Add to Cart</button>
+            </div>
+          </div>
         </div>
-  </div>
-</p>
-<iframe class="iframe-h-50"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25202080Ti%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%250A%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-  <h1 class="content-title">Text only Card</h1>
-<p class="sub-content">
-  This card will only have text.
-  <div class="content-container">
-    <div class="card-container">
-        <h1 class="card-title">Nvidia</h1>
-        <h2 class="card-subtitle">RTX 2080Ti</h2>
-      <p class="card-description">RTX 2080 Ti graphics card is built for gaming realism and performance. Its powerful NVIDIA Turing™ GPU architecture, breakthrough technologies, and 11 GB of next-gen, ultra-fast GDDR6 memory make it an ultimate gaming GPU.</p>
-  </div>
-</div>
-</p>
-<iframe class="iframe-h-32"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25202080Ti%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-<h1 class="content-title">Horizontal / Vertical Cards</h1>
-<p class="sub-content">
-  Vertical card can be used if you have less available Width and Horizontal card can be used when you have less available Height.
-  <div class="content-container">
-      <div class="card-horizontal">
+      </p>
+      <iframe class="iframe-h-45"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ERTX%25203050%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ENvidia%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ERs.30000%253C%252Fp%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <h1 class="content-title">Card with Text Overlay</h1>
+      <p class="sub-content">
+        This Card will have text over image. Use 'overlay-bottom' or 'overlay-top' for text over image.
+        <div class="content-container">
+          <div class="card-container">
+            <div class="img-container">
+              <img class="card-img" src="../../Assets/card-image-2.jpg" alt="A graphic card image">
+              <div class="card-text-overlay">
+                <h1 class="card-title">Nvidia</h1>
+                <h2 class="card-subtitle">RTX 2080Ti</h2>
+              </div>
+            </div>
+            <p class="card-description">RTX 2080 Ti graphics card is built for gaming realism and performance.</p>
+          </div>
+        </div>
+      </p>
+      <iframe class="iframe-h-50"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25202080Ti%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%250A%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <h1 class="content-title">Text only Card</h1>
+      <p class="sub-content">
+        This card will only have text.
+        <div class="content-container">
+          <div class="card-container">
+            <h1 class="card-title">Nvidia</h1>
+            <h2 class="card-subtitle">RTX 2080Ti</h2>
+            <p class="card-description">RTX 2080 Ti graphics card is built for gaming realism and performance. Its
+              powerful NVIDIA Turing™ GPU architecture, breakthrough technologies, and 11 GB of next-gen, ultra-fast
+              GDDR6 memory make it an ultimate gaming GPU.</p>
+          </div>
+        </div>
+      </p>
+      <iframe class="iframe-h-32"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25202080Ti%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <h1 class="content-title">Horizontal / Vertical Cards</h1>
+      <p class="sub-content">
+        Vertical card can be used if you have less available Width and Horizontal card can be used when you have less
+        available Height.
+        <div class="content-container">
+          <div class="card-horizontal">
             <img class="card-img horz-img" src="../../Assets/card-image-3.png" alt="brand logo">
             <div class="title-container">
               <h1 class="card-title">Nvidia</h1>
               <h2 class="card-subtitle">RTX 3090</h2>
-            <p class="card-description">The GeForce RTX™ 3090 is a Great GPU.</p>
-            </div>
-      </div>
-  </div>
-<iframe class="iframe-h-41"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522title-container%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25203090%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%253C%252Fp%253E%250A%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-  <div class="content-container">
-      <div class="card-vertical">
-          <img class="card-img" src="../../Assets/card-image-3.png" alt="brand logo">
-          <h1 class="card-title">Nvidia</h1>
-          <h2 class="card-subtitle">RTX 3090</h2>
-          <p class="card-description">The GeForce RTX™ 3090 is a big ferocious GPU (BFGPU) with TITAN class performance.</p>
-  </div>
-</div>
-</p>
-<iframe class="iframe-h-33"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25203090%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-<h1 class="content-title">Card with Shadow</h1>
-        <p class="sub-content">
-          Just use 'card-shadow' class on any of the card to get a shadow behind.
-          <div class="content-container">
-            <div class="card-container card-shadow">
-                <img class="card-img" src="../../Assets/card-image-1.jpg" alt="A graphic card image">
-                <h1 class="card-title">Nvidia</h1>
-                <h2 class="card-subtitle">RTX 2080Ti</h2>
-                <p class="card-description">RTX 2080 Ti graphics card is built for gaming realism and performance.</p>
+              <p class="card-description">The GeForce RTX™ 3090 is a Great GPU.</p>
             </div>
           </div>
-        </p>
-<iframe class="iframe-h-33"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520card-shadow%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25202080Ti%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-        <div class="divider"></div>
-        <div class="page-change">
-                <a href="../Button/Button.html"> < Button</a>
-                <a href="../Image/image.html">Image ></a>
-              </div>
         </div>
+        <iframe class="iframe-h-41"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522title-container%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25203090%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%253C%252Fp%253E%250A%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <div class="content-container">
+          <div class="card-vertical">
+            <img class="card-img" src="../../Assets/card-image-3.png" alt="brand logo">
+            <h1 class="card-title">Nvidia</h1>
+            <h2 class="card-subtitle">RTX 3090</h2>
+            <p class="card-description">The GeForce RTX™ 3090 is a big ferocious GPU (BFGPU) with TITAN class
+              performance.</p>
+          </div>
         </div>
+      </p>
+      <iframe class="iframe-h-33"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25203090%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <h1 class="content-title">Card with Shadow</h1>
+      <p class="sub-content">
+        Just use 'card-shadow' class on any of the card to get a shadow behind.
+        <div class="content-container">
+          <div class="card-container card-shadow">
+            <img class="card-img" src="../../Assets/card-image-1.jpg" alt="A graphic card image">
+            <h1 class="card-title">Nvidia</h1>
+            <h2 class="card-subtitle">RTX 2080Ti</h2>
+            <p class="card-description">RTX 2080 Ti graphics card is built for gaming realism and performance.</p>
+          </div>
+        </div>
+      </p>
+      <iframe class="iframe-h-33"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520card-shadow%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-title%2522%253ENvidia%253C%252Fh1%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-subtitle%2522%253ERTX%25202080Ti%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EYour%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <div class="page-change">
+        <a href="../Button/Button.html">
+          < Button</a> <a href="../Image/image.html">Image >
+        </a>
       </div>
     </div>
-    <script src="../../docsite-js/theme.js"></script>
-  </body>
+  </div>
+  </div>
+  </div>
+  <script src="../../docsite-js/theme.js"></script>
+</body>
+
 </html>

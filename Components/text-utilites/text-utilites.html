@@ -1,160 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../css/header.css" />
-    <link rel="stylesheet" href="../../css/sidebar.css" />
-    <link rel="stylesheet" href="../../css/content.css" />
-    <link rel="stylesheet" href="../../css/divider.css" />
-    <link rel="stylesheet" href="../../css/container.css" />
-    <link rel="stylesheet" href="../../css/media-query.css" />
-    <link
-      rel="stylesheet"
-      href="https://storm-components.netlify.app/components.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <title>Text Utilities | Storm UI</title>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="navbar">
-        <a class="name" href="../../index.html"><i class="fas fa-bolt"></i> STORM</a>
-        <div class="icon-container">
-          <a href="https://github.com/B0llu">
-            <i class="fab fa-github icon"></i>
-          </a>
-          <a href="https://twitter.com/TheBestDhruv">
-            <i class="fab fa-twitter icon"></i>
-          </a>
-          <a>
-            <i id="toggle-theme" class="fas fa-moon icon"></i>
-          </a>
-        </div>
-      </nav>
-      <div class="side-bar">
-        <div class="nested-list stick">
-          <div>
-            <h1 class="list-topic">Get Started</h1>
-            <ul class="list-subtopic">
-              <li>
-                <a
-                  class="link-hover"
-                  href="../../Documentation/Introduction.html"
-                  >Introduction</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../../Documentation/Color.html"
-                  >Colors</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../../Documentation/Typography.html"
-                  >Typography</a
-                >
-              </li>
-              <li>
-                <a class="link-hover" href="../../Documentation/Conclusion.html"
-                  >Conclusion</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h1 class="list-topic">Components</h1>
-            <ul class="list-subtopic">
-              <li>
-                <a class="link-hover" href="../Avatar/Avatar.html">Avatar</a>
-              </li>
-              <li>
-                <a class="link-hover" href="../Badge/Badge.html">Badge</a>
-              </li>
-              <li>
-                <a class="link-hover" href="../Alert/Alert.html">Alert</a>
-              </li>
-              <li>
-                <a class="link-hover" href="../Button/Button.html">Button</a>
-              </li>
-              <li><a class="link-hover" href="../Card/card.html">Card</a></li>
-              <li><a class="link-hover" href="../Image/image.html">Image</a></li>
-              <li><a class="link-hover" href="../Input/input.html">Input</a></li>
-              <li><a class="link-active" href="./text-utilites.html">Text Utilities</a></li>
-              <li><a class="link-hover" href="../lists/lists.html">Lists</a></li>
-              <li><a class="link-hover" href="../navigation/navigation.html">Navigation</a></li>
-              <li><a class="link-hover" href="../modal/modal.html">Modal</a></li>
-              <li><a class="link-hover" href="../rating/rating.html">Rating</a></li>
-            </ul>
-          </div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../css/header.css" />
+  <link rel="stylesheet" href="../../css/sidebar.css" />
+  <link rel="stylesheet" href="../../css/content.css" />
+  <link rel="stylesheet" href="../../css/divider.css" />
+  <link rel="stylesheet" href="../../css/container.css" />
+  <link rel="stylesheet" href="../../css/media-query.css" />
+  <link rel="stylesheet" href="https://storm-components.netlify.app/components.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Text Utilities | Storm UI</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <a class="name" href="../../index.html"><i class="fas fa-bolt"></i> STORM</a>
+      <div class="icon-container">
+        <a href="https://github.com/B0llu">
+          <i class="fab fa-github icon"></i>
+        </a>
+        <a href="https://twitter.com/TheBestDhruv">
+          <i class="fab fa-twitter icon"></i>
+        </a>
+        <a>
+          <i id="toggle-theme" class="fas fa-moon icon"></i>
+        </a>
       </div>
-      <div class="content">
-        <h1 class="content-title">Text Utilities</h1>
-        <p class="sub-content">
-          Documentation and examples for common text utilities to control alignment, sizing, colored text.
-        </p>
-        <div class="divider"></div>
-        <h1 class="content-title">Text Sizes</h1>
-        <p class="sub-content">Text Sizes give your the freedom of chosing what kind of size you want in your project for diffrent types of text's.
-            <div class="content-container">
-              <div class="text-container">
-                <p class="x-sm-text">Extra Small Text</p>
-                <p class="sm-text">Small Text</p>
-                <p class="normal-text">Normal Text</p>
-                <p class="lg-text">Large Text</p>
-                <p class="x-lg-text">Extra Large Text</p>
-              </div>
-            </div>
-        </p>
-        <iframe class="iframe-h-35"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522x-sm-text%2522%253EExtra%2520Small%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522sm-text%2522%253ESmall%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522normal-text%2522%253ENormal%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522lg-text%2522%253ELarge%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522x-lg-text%2522%253EExtra%2520Large%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-<h1 class="content-title">Colored Text</h1>
-        <p class="sub-content">Convey meaning through color with a handful of color utility classes.
-            <div class="content-container">
-                <div class="text-container">
-                  <p class="text-primary">Primary Text</p>
-                  <p class="text-secondary">Secondary Text</p>
-                  <p class="text-success">Success Text</p>
-                  <p class="text-error">Error Text</p>
-                  <p class="text-warning">Warning Text</p>
-                </div>
-            </div>
-        </p>
-        <iframe class="iframe-h-36"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522text-primary%2522%253EPrimary%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-secondary%2522%253ESecondary%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-success%2522%253ESuccess%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-error%2522%253EError%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-warning%2522%253EWarning%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-        <div class="divider"></div>
-        <h1 class="content-title">Aligned Text</h1>
-        <p class="sub-content">Easily realign text to components with text alignment classes.
-            <div class="content-container">
-                <div class="align-container">
-                  <p class="center-text">Center Aligned</p>
-                  <p class="left-text">Left Aligned</p>
-                  <p class="right-text">Right Aligned</p>
-                </div>
-            </div>
-        </p>
-        <iframe class="iframe-h-32"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522align-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522center-text%2522%253ECenter%2520Aligned%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522left-text%2522%253ELeft%2520Aligned%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522right-text%2522%253ERight%2520Aligned%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<div class="divider"></div>
-<div class="page-change">
-                <a href="../Input/input.html"> < Input</a>
-                <a href="../lists/lists.html">Lists ></a>
-              </div>
+    </nav>
+    <div class="side-bar">
+      <div class="nested-list stick">
+        <div>
+          <h1 class="list-topic">Get Started</h1>
+          <ul class="list-subtopic">
+            <li>
+              <a class="link-hover" href="../../Documentation/Introduction.html">Introduction</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../../Documentation/Color.html">Colors</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../../Documentation/Typography.html">Typography</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../../Documentation/Conclusion.html">Conclusion</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="list-topic">Components</h1>
+          <ul class="list-subtopic">
+            <li>
+              <a class="link-hover" href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Badge/Badge.html">Badge</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a class="link-hover" href="../Button/Button.html">Button</a>
+            </li>
+            <li><a class="link-hover" href="../Card/card.html">Card</a></li>
+            <li><a class="link-hover" href="../Image/image.html">Image</a></li>
+            <li><a class="link-hover" href="../Input/input.html">Input</a></li>
+            <li><a class="link-active" href="./text-utilites.html">Text Utilities</a></li>
+            <li><a class="link-hover" href="../lists/lists.html">Lists</a></li>
+            <li><a class="link-hover" href="../navigation/navigation.html">Navigation</a></li>
+            <li><a class="link-hover" href="../modal/modal.html">Modal</a></li>
+            <li><a class="link-hover" href="../rating/rating.html">Rating</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-    <script src="../../docsite-js/theme.js"></script>
-  </body>
+    <div class="content">
+      <h1 class="content-title">Text Utilities</h1>
+      <p class="sub-content">
+        Documentation and examples for common text utilities to control alignment, sizing, colored text.
+      </p>
+      <div class="divider"></div>
+      <h1 class="content-title">Text Sizes</h1>
+      <p class="sub-content">Text Sizes give your the freedom of chosing what kind of size you want in your project for
+        diffrent types of text's.
+        <div class="content-container">
+          <div class="text-container">
+            <p class="x-sm-text">Extra Small Text</p>
+            <p class="sm-text">Small Text</p>
+            <p class="normal-text">Normal Text</p>
+            <p class="lg-text">Large Text</p>
+            <p class="x-lg-text">Extra Large Text</p>
+          </div>
+        </div>
+      </p>
+      <iframe class="iframe-h-35"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522x-sm-text%2522%253EExtra%2520Small%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522sm-text%2522%253ESmall%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522normal-text%2522%253ENormal%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522lg-text%2522%253ELarge%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522x-lg-text%2522%253EExtra%2520Large%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <h1 class="content-title">Colored Text</h1>
+      <p class="sub-content">Convey meaning through color with a handful of color utility classes.
+        <div class="content-container">
+          <div class="text-container">
+            <p class="text-primary">Primary Text</p>
+            <p class="text-secondary">Secondary Text</p>
+            <p class="text-success">Success Text</p>
+            <p class="text-error">Error Text</p>
+            <p class="text-warning">Warning Text</p>
+          </div>
+        </div>
+      </p>
+      <iframe class="iframe-h-36"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522text-primary%2522%253EPrimary%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-secondary%2522%253ESecondary%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-success%2522%253ESuccess%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-error%2522%253EError%2520Text%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-warning%2522%253EWarning%2520Text%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <h1 class="content-title">Aligned Text</h1>
+      <p class="sub-content">Easily realign text to components with text alignment classes.
+        <div class="content-container">
+          <div class="align-container">
+            <p class="center-text">Center Aligned</p>
+            <p class="left-text">Left Aligned</p>
+            <p class="right-text">Right Aligned</p>
+          </div>
+        </div>
+      </p>
+      <iframe class="iframe-h-32"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=lucario&wt=none&l=htmlmixed&width=339&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522align-container%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522center-text%2522%253ECenter%2520Aligned%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522left-text%2522%253ELeft%2520Aligned%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522right-text%2522%253ERight%2520Aligned%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <div class="divider"></div>
+      <div class="page-change">
+        <a href="../Input/input.html">
+          < Input</a> <a href="../lists/lists.html">Lists >
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="../../docsite-js/theme.js"></script>
+</body>
+
 </html>
