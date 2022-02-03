@@ -96,10 +96,13 @@ iframe {
 
 i.hamburger {
   position: sticky;
-  top: 0;
+  top: 1rem;
   font-size: 3rem;
   display: none;
   width: fit-content;
+  background-color: var(--default-color);
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .margin-left {
