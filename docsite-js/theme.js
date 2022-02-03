@@ -15,7 +15,7 @@ const addDarkTheme = () => {
   rootDoc.style.setProperty("--nav-bg-color", "#272727");
   rootDoc.style.setProperty("--header-color", "#238ac5");
   rootDoc.style.setProperty("--content-color", "#b6bab3");
-  rootDoc.style.setProperty("--card-container-bg", "#aeabab");
+  rootDoc.style.setProperty("--card-container-bg", "#f0f0f0");
   rootDoc.style.setProperty("--text-color", "#1c1b1b");
   rootDoc.style.setProperty("--icon-color", "#b6bab3");
 };
@@ -32,7 +32,7 @@ const addLightTheme = () => {
   rootDoc.style.setProperty("--nav-bg-color", "#272727");
   rootDoc.style.setProperty("--header-color", "#238ac5");
   rootDoc.style.setProperty("--content-color", "#000000");
-  rootDoc.style.setProperty("--card-container-bg", "#aeabab");
+  rootDoc.style.setProperty("--card-container-bg", "#f0f0f0");
   rootDoc.style.setProperty("--text-color", "#000000");
   rootDoc.style.setProperty("--icon-color", "#ffffff");
 };
