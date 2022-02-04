@@ -89,8 +89,7 @@
   }
 
   iframe {
-    width: 50rem;
-    height: 25rem;
+    width: 37rem;
     border: 0;
     transform: scale(1);
     overflow: hidden;
@@ -107,7 +106,6 @@
   }
 
   iframe {
-    width: auto;
     overflow: hidden;
   }
 
@@ -199,6 +197,7 @@
     cursor: pointer;
     color: var(--content-color);
     width: fit-content;
+    z-index: 10;
   }
 
   .content i.hamburger:hover {
