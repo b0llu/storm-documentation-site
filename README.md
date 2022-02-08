@@ -9,7 +9,7 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
     />
 ```   
 
-### Posh UI contains the following components
+### Storm UI contains the following components
 
 - [Avatar](#Avatar)
 - [Badge](#Badge)
