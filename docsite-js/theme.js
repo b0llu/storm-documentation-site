@@ -18,6 +18,7 @@ const addDarkTheme = () => {
   rootDoc.style.setProperty("--card-container-bg", "#f0f0f0");
   rootDoc.style.setProperty("--text-color", "#1c1b1b");
   rootDoc.style.setProperty("--icon-color", "#b6bab3");
+  rootDoc.style.setProperty("--for-quiz", "#19212c");
 };
 
 const addLightTheme = () => {
@@ -34,7 +35,7 @@ const addLightTheme = () => {
   rootDoc.style.setProperty("--content-color", "#000000");
   rootDoc.style.setProperty("--card-container-bg", "#f0f0f0");
   rootDoc.style.setProperty("--text-color", "#000000");
-  rootDoc.style.setProperty("--icon-color", "#ffffff");
+  rootDoc.style.setProperty("--for-quiz", "#f0f0f0");
 };
 
 const darkThemeToggleBtn = () => {
